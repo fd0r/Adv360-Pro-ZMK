@@ -42,25 +42,25 @@
       >;
     };
 
-    sofle_layer_2 {
-      bindings = <
-        &none      &none     &none   &none      &none        &none        &none                                                                         &none  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LPAR   &kp RPAR        &kp BACKSPACE
-        &kp TAB    &kp EXCL  &kp AT  &kp HASH   &kp DOLLAR   &kp PERCENT  &none                                                                         &none  &kp MINUS  &kp EQUAL      &kp LBKT      &kp RBKT   &kp  BACKSLASH  &kp GRAVE
-        &kp LCTRL  &none     &none   &kp PG_UP  &kp PG_DOWN  &kp TILDE    &none            &kp LGUI  &none                  &none  &kp RALT             &none  &kp RIGHT  &kp DOWN       &kp UP        &kp RIGHT  &kp SEMI        &kp SQT
-        &kp LSHFT  &none     &none   &none      &none        &none               &none     &none     &none   &none  &none   &none  &none     &none             &kp F6     &kp F7         &kp F8        &kp F9     &kp F10         &kp F11
-        &none      &none     &none   &none      &none                            &kp SPACE &none     &none                  &none  &none     &kp ENTER                    &none          &none         &none      &none           &none
-      >;
-    };
+    // sofle_layer_2 {
+    //   bindings = <
+    //     &none     &none    &none  &none     &none       &none       &none                                                               &none &kp CARET &kp AMPERSAND &kp ASTERISK &kp LPAR  &kp RPAR      &kp BACKSPACE
+    //     &kp TAB   &kp EXCL &kp AT &kp HASH  &kp DOLLAR  &kp PERCENT &none                                                               &none &kp MINUS &kp EQUAL     &kp LBKT     &kp RBKT  &kp BACKSLASH &kp GRAVE
+    //     &kp LCTRL &none    &none  &kp PG_UP &kp PG_DOWN &kp TILDE   &none           &kp LGUI &none             &none &kp RALT           &none &kp RIGHT &kp DOWN      &kp UP       &kp RIGHT &kp SEMI      &kp SQT
+    //     &kp LSHFT &none    &none  &none     &none       &none             &none     &none    &none &none &none &none &none    &none           &kp F6    &kp F7        &kp F8       &kp F9    &kp F10       &kp F11
+    //     &none     &none    &none  &none     &none                         &kp SPACE &none    &none             &none &none    &kp ENTER                 &none         &none        &none     &none         &none
+    //   >;
+    // };
 
-    none {
-      bindings = <
-        &none  &none  &none  &none  &none  &none  &none                                                          &none  &none  &none  &none  &none  &none  &none
-        &none  &none  &none  &none  &none  &none  &none                                                          &none  &none  &none  &none  &none  &none  &none
-        &none  &none  &none  &none  &none  &none  &none         &none  &none                &none  &none         &none  &none  &none  &none  &none  &none  &none
-        &none  &none  &none  &none  &none  &none         &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-        &none  &none  &none  &none  &none                &none  &none  &none                &none  &none  &none  &none  &none  &none  &none  &none
-      >;
-    };
+    // none {
+    //   bindings = <
+    //     &none  &none  &none  &none  &none  &none  &none                                                          &none  &none  &none  &none  &none  &none  &none
+    //     &none  &none  &none  &none  &none  &none  &none                                                          &none  &none  &none  &none  &none  &none  &none
+    //     &none  &none  &none  &none  &none  &none  &none         &none  &none                &none  &none         &none  &none  &none  &none  &none  &none  &none
+    //     &none  &none  &none  &none  &none  &none         &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+    //     &none  &none  &none  &none  &none                &none  &none  &none                &none  &none  &none  &none  &none  &none  &none  &none
+    //   >;
+    // };
 
     // Default layers
 
@@ -103,5 +103,6 @@
     //     &none &none        &none        &bl BL_INC   &bl BL_DEC                                       &rgb_ug RGB_TOG &bl BL_TOG &none                  &none      &bl BL_TOG &rgb_ug RGB_TOG                                     &bl BL_INC   &bl BL_DEC   &none        &none        &none
     //   >;
     // };
+
   };
 };
