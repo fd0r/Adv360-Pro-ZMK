@@ -32,3 +32,9 @@ If you have changed other files in the `config` directory (such as `config/west.
 Resources can be found on Kinesis.com
 https://kinesis-ergo.com/support/kb360pro/#firmware-updates
 https://kinesis-ergo.com/support/kb360pro/#manuals
+
+To make sure that the right half finds the left half after flashing
+- Disconnect both half
+- Reconnect right half first
+- Reconnect left half
+The right half should recognize the other half
